@@ -3,7 +3,7 @@
   "use strict";
 
   // BOOTHの商品URL（公開後に設定する。空の間はボタンを無効表示にする）
-  var LINKS = { "link-lite": "", "link-full": "" };
+  var LINKS = { "link-full": "https://kip1zm.booth.pm/items/8964747" };
 
   var ids = ["price", "qty", "cost", "fee", "travel", "other", "sold"];
   var yen = function (n) { return (n < 0 ? "−" : "") + Math.abs(Math.round(n)).toLocaleString("ja-JP") + "円"; };
